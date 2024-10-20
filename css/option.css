@@ -1,0 +1,40 @@
+.columns {
+    column-count: 2;
+    column-gap: 20px;
+    padding: 20px;
+    box-shadow: 7px 10px whitesmoke;
+}
+
+#gradient {
+    height: 100vh;
+    background-color: lightcoral;
+    background-image: linear-gradient(lightcoral, lightblue);
+}
+
+@font-face {
+    font-family: 'quicksandRegular';
+    src: url("../images/quicksand-regular-webfont.woff2") format("woff2"),
+    url("../images/quicksand-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+
+p {
+    font-family: "quicksandRegular";
+    font-weight: normal;
+    padding: 5px;
+}
+
+h1 {
+    text-shadow: 2px 2px whitesmoke;
+    text-align: center;
+  }
+
+ul :first-child {
+    color: whitesmoke;
+}
+
+a[target] {
+    color: darkred;
+  }
